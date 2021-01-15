@@ -46,3 +46,10 @@ export const finisehdNewGamesURL = () => `${base_url}${new_games}`;
 
 // remove export to run this log
 // console.log(finishedPopularGamesURL());
+
+// GAME DETAILS
+export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}`;
+
+// GAME SCREENSHOTS
+export const gameScreenShotURL = (game_id) =>
+	`${base_url}games/${game_id}/screenshots`;
