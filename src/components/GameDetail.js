@@ -76,7 +76,7 @@ const Detail = styled(motion.div)`
 	}
 `;
 
-const Stats = styled(mption.div)`
+const Stats = styled(motion.div)`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
