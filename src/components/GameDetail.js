@@ -20,7 +20,7 @@ import starFull from "../img/star-full.png";
 
 const GameDetail = ({ pathId }) => {
 	const history = useHistory();
-	// Exit detail handler
+	// Exit detail handler (when clicking outside the detail page to exit)
 	const exitDetailHandler = (e) => {
 		const element = e.target;
 		if (element.classList.contains("shadow")) {
